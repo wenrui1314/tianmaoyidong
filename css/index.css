@@ -1,0 +1,338 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-31 14:55:17
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-04-01 15:45:26
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	font-size: 12px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-appearance: none;
+	-webkit-text-size-adjust:100%;
+	-webkit-user-select:none; 
+	-webkit-overflow-scrolling:touch;
+	-webkit-transform: translate3d(0, 0, 0);transform: translate3d(0, 0, 0);
+	-webkit-user-select:none;user-select:none;
+	-webkit-tap-highlight-color:rgba(255,255,255,0);
+	-webkit-text-size-adjust: 100%;
+     text-size-adjust: 100%;
+}
+img{
+	display: block;
+}
+<a href="tel:110">请拨打电话110</a>
+<a href="mailto:qq@.com">请发送邮件qq@.com</a>
+ 
+body{font-family:Helvetica;}
+body {-webkit-overflow-scrolling:touch; overflow-scrolling: touch;}
+p{max-height:9999999px}
+ html, body, form, fieldset, p, div, h1, h2, h3, h4, h5, h6 {-webkit-text-size-adjust:none;}
+
+
+/* 头部开始 */
+.header {
+	width: 100%;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+}
+.header img{
+	width: 100%;
+	height: 100%;
+}
+.header .top{
+	width: 100%;
+	height: auto;
+	background: #014977;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.header .middle{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	line-height: 45px;
+}
+.header .icon-caidan{
+	float: left;
+	color: #FFFFFF;
+	font-size: 38px;
+	margin-top: 24px;
+	padding-right: 60px;
+}
+.top .middle form input{
+	width: 60%;
+	height: auto;
+	background:#E6F5ED; 
+	border-radius: 6px;
+	box-sizing: border-box;
+	padding:12px 0;
+	margin: 12px auto;
+	font-size: 38px;
+	color: #999999;
+	float: left;
+}
+.header .middle span{
+	float: right;
+	color: #FFFFFF;
+	font-size: 28px;
+	margin-top: 24px;
+}
+/* 头部结束 */
+/* 第二部分开始 */
+.box {
+	width: 100%;
+	overflow: hidden;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.box>div{
+	width: 20%;
+	float: left;
+}
+.box img{
+	padding-top: 12px ;
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+}
+.box>div:nth-child(5)~div{
+	padding: 38px 0;
+}
+.box h3{
+	text-align: center;
+	font-size: 28px;
+	font-weight: 200;
+	color: #051B28;
+	margin-top: 12px;
+}
+
+.box1{
+	width: 100%;
+	overflow: hidden;
+	padding: 0 20px;
+	box-sizing: border-box;
+}
+.box1 a{
+	display: block;
+	float: left;
+}
+.box1 a:nth-child(1){
+	border-right: 1px solid #CCCCCC;
+	padding: 0 5px 0 20px;
+}
+.box1 a:nth-child(2){
+	padding-top: 15px;
+	padding-left: 20px;
+}
+.box1 .right{
+	width: auto;
+	height: auto;
+	overflow: hidden;
+	margin-left: 10px;
+}
+.right span:nth-child(1){
+	color: #333333;
+	font-size: 28px;
+	float: right;
+	padding:6px 68px 6px 0;
+}
+.right span:nth-child(2){
+	color:  #FF2F2F;
+	font-size: 28px;
+	float: right;
+	padding-right: 80px;
+}
+/* 第二部分结束 */
+/* 第三部分开始 */
+.bar{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 40px;
+}
+.bar div a img{
+	width: 50%;
+	height: 50%;
+}
+.bar img:nth-last-child(1){
+	float: left;
+}
+.bar img:nth-last-child(2){
+	float: right;
+	overflow: hidden;
+}
+/* 第三部分结束 */
+/* 必抢开始 */
+.huo{
+	width: 100%;
+	background: #F0F0F0;
+	text-align: center;
+	overflow: hidden;
+}
+.huo img{
+	width: 4%;
+	height: 4%;
+	display: inline-block;
+}
+.huo span{
+	font-size:32px;
+	color: #FE2E64;
+	display: inline-block;
+	margin: 18px 0 18px 6px;
+}
+.qiang {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.qiang>div{
+	width: 25%;
+	float: left;
+	border-right: 1px solid#F0F0F0;
+	box-sizing: border-box;
+}
+.qiang img{
+	padding-top: 12px ;
+	width: 70%;
+	height: 70%;
+	margin: 14px auto;
+}
+.qiang>div:nth-child(4)~div{
+	padding: 20px 0;
+}
+.qiang span:nth-of-type(1){
+	color: #333333;
+	font-size: 26px;
+	margin-top: 16px;
+	display: block;
+}
+.qiang span:nth-of-type(2){
+	text-align: center;
+	color: #FF4134;
+	font-size: 22px;
+}
+.qiang span:nth-of-type(3){
+	text-align: center;
+	color: #878787;
+	font-size: 20px;
+	text-decoration: line-through;
+}
+/* 潮流酷玩开始 */
+.play{
+	width: 100%;
+	background: #F0F0F0;
+	text-align: center;
+	overflow: hidden;
+}
+.play img{
+	width: 4%;
+	height: 4%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.play span{
+	font-size:32px;
+	color: #4A84E2;
+	display: inline-block;
+	margin: 18px 0 18px 6px;
+}
+.ku {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.ku>div{
+	width: 33.3%;
+	float: left;
+}
+.ku div a img{
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+}
+/* 潮流酷玩结束 */
+/* 品牌特卖结束 */
+.te{
+	width: 100%;
+	background: #F0F0F0;
+	text-align: center;
+	overflow: hidden;
+}
+.te img{
+	width: 4%;
+	height: 4%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.te span{
+	font-size:32px;
+	color: #F6AD4B;
+	display: inline-block;
+	margin: 18px 0 18px 6px;
+}
+.mai {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.mai>div{
+	width: 50%;
+	float: left;
+	border-left: 2px solid #F0F0F0;
+	box-sizing: border-box;
+}
+.mai div a img{
+	width: 100%;
+	height: 100%;
+}
+/* 潮流酷玩结束 */
+/* 品牌资讯开始 */
+.zi{
+	width: 100%;
+	background: #F0F0F0;
+	text-align: center;
+	overflow: hidden;
+}
+.zi img{
+	width: 4%;
+	height: 4%;
+	display: inline-block;
+	margin-top: 20px;
+}
+.zi span{
+	font-size:32px;
+	color: #009FA3;
+	display: inline-block;
+	margin: 18px 0 18px 6px;
+}
+.xun {
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+}
+.xun>div{
+	width: 33.3%;
+	float: left;
+}
+.xun div a img{
+	width: 90%;
+	height: 90%;
+	margin: 0 auto;
+}
+.pai{
+	width: 100%;
+}
+.pai>div{
+	width: 100%;
+}
+.pai div img{
+	width: 100%;
+	height: 100%;
+}
+/* 品牌资讯结束 */
